@@ -54,6 +54,8 @@ Good luck. Maybe try dual booting with Linux if this doesn't work out :)
 > qemu-system-i386 -drive format=raw,file=boot.img -display sdl -audiodev id=dsound,driver=dsound -device sb16,audiodev=dsound
 ```
 
+If you do not want to use WSL. You can also use the built-in Git Bash(You need git installed to use the bash). Just run "make img". Then open up Command Prompt to run Qemu.
+
 If sound is broken or choppy, try running with  `> qemu-system-i386 -display sdl -drive format=raw,file=boot.img -audiodev id=dsound,driver=dsound,out.fixed-settings=on,out.frequency=22050,out.buffer-length=80000,timer-period=100 -device sb16,audiodev=dsound`
 
 #### Real hardware
