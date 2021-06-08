@@ -43,7 +43,7 @@ If you're having issues with no image showing up/QEMU freezing, this is a known 
 #### Windows
 
 Good luck. Maybe try dual booting with Linux if this doesn't work out :)
-
+- Use the build it bash that comes with git and use the "Unix-Like" Instructions
 - Follow the Unix-like instructions while using WSL 
 - Using  [MSYS2](https://www.msys2.org/) and the [i386-elf-toolchain](https://github.com/nativeos/i386-elf-toolchain/releases)
   - Extract the binaries of the GCC and binutils releases to your mingw64 folder (likely at `C:\msys64\mingw64`)
